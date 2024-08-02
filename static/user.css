@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F8FF;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: var(--secondary-color);
+}
+
+.header {
+    background-color: #228B22;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.profile {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #8B4513;
+    border-radius: 8px;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #8B4513;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 28px;
+    color: #228B22;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.profile-bio {
+    color: #8B4513;
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-details,
+.profile-activities,
+.profile-settings {
+    border: 1px solid #8B4513;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.profile-details h2,
+.profile-activities h2,
+.profile-settings h2 {
+    color: #228B22;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.profile-details p,
+.profile-activities ul,
+.profile-settings a {
+    color: #8B4513;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.profile-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-activities li {
+    margin-bottom: 0.5rem;
+}
+
+.profile-activities a {
+    color: #228B22;
+    text-decoration: none;
+}
+
+.profile-settings a {
+    display: inline-block;
+    background-color: #228B22;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+    font-weight: 600;
+}
