@@ -14,5 +14,5 @@ AgriRent is a platform designed to revolutionize agriculture by enabling the sha
 
 
 
-This is the link to the web app https://theanswer.tech
+This is the link to the web app https://theanswer.tech/templates/
 
